@@ -1,0 +1,21 @@
+h1,h3{
+  text-align: center;
+}
+.outer{
+  height:200px;
+  width:800px;
+  border:1px solid black;
+  border-radius: 5px;
+  margin: auto;
+}
+.inner{
+  display: flex;
+  text-align: center;
+  height: 100%;
+}
+.inner div{
+  border:1px solid black;
+
+  flex:1;
+  border-radius: 5px;
+}
